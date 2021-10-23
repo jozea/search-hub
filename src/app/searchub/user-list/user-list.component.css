@@ -1,0 +1,57 @@
+
+
+.table-container {
+    /* overflow: scroll; */
+    width: 100%;
+    /* margin-left: 20%;
+    margin-bottom: 10%; */
+  
+  }
+
+
+  table {
+    /* text-align: center; */
+    /* // table-layout: fixed; */
+    width: 100%;
+    min-width: 900px;
+    overflow-x: scroll;
+  }
+  
+  /* th, td {
+    text-align: center !important;
+    text-transform: capitalize;
+    padding: 10px !important;
+    overflow-wrap: break-word;
+  } */
+  td {
+    page-break-inside: avoid;
+  }
+  
+  
+  tr{
+    /* line-height: 44px;  */
+    /* text-align: center; */
+    }
+  
+  .mat-header-cell, .mat-sort-header {
+    /* background-color: #0065ea; */
+    color: black;
+    /* width: fit-content;
+    text-align: center;
+   */
+  }
+  
+  ::ng-deep .mat-sort-header-arrow {
+    transform: none !important;
+    opacity: 1 !important;
+    color: white !important;
+  }
+
+  .image {
+    width: 20%;
+    border-radius: 50%;
+  }
+  
+  /* .w-70 {
+  min-width: 300px;
+  } */

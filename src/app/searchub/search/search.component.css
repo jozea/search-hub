@@ -1,0 +1,23 @@
+.example-form-field {
+    width:50%;
+    /* justify-content: center; */
+    /* margin-left: 10%;
+    margin-right: 10%; */
+       
+}
+
+.search-form {
+    text-align: center;
+    /* margin-top: 10%;
+    margin-left: 20%;
+    margin-right: 10%; */
+    /* display: contents;
+    
+    place-items: center; */
+}
+
+.container-fluid {
+    margin-top: 10%;
+    /* text-align: center; */
+}
+

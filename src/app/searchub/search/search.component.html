@@ -1,0 +1,25 @@
+
+<div class=" container-fluid ">
+  <h3><mat-icon style="margin-left: 20%;">search</mat-icon>&nbsp; Search all Users</h3>
+
+    <div class="search-form">
+        
+        <mat-form-field class="example-form-field" appearance="outline">
+            <mat-label>Enter Search Hub</mat-label>
+            <input matInput class="bg-white" type="text" [(ngModel)]="name" #box (keyup.enter)="onEnter(box.value)">
+            <button *ngIf="name" matSuffix mat-icon-button aria-label="Clear" (click)="name=''">
+              <mat-icon>close</mat-icon>
+            </button>
+        </mat-form-field>&nbsp;
+
+        <button (click)="onEnter(name)" mat-raised-button>
+            <span *ngIf="!isLoadingResults">Search</span>
+            <div *ngIf="isLoadingResults">
+                <div class="spinner-border text-primary" role="status">
+                  <!-- <span class="sr-only">Loading...</span> -->
+                </div>
+              </div>
+        </button>
+    </div>
+</div>
+<!-- style="text-align: center; font-weight: bolder; font-size: 50px" -->

@@ -1,13 +1,13 @@
 
 
 .table-container {
-    width: 80%;
+    width: 100%;
   
   }
 
 
   table {
-    width: 80%;
+    width: 100%;
     min-width: 900px;
     overflow-x: scroll;
   }

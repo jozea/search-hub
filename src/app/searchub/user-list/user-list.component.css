@@ -1,18 +1,13 @@
 
 
 .table-container {
-    /* overflow: scroll; */
-    width: 100%;
-    /* margin-left: 20%;
-    margin-bottom: 10%; */
+    width: 80%;
   
   }
 
 
   table {
-    /* text-align: center; */
-    /* // table-layout: fixed; */
-    width: 100%;
+    width: 80%;
     min-width: 900px;
     overflow-x: scroll;
   }
@@ -27,18 +22,8 @@
     page-break-inside: avoid;
   }
   
-  
-  tr{
-    /* line-height: 44px;  */
-    /* text-align: center; */
-    }
-  
   .mat-header-cell, .mat-sort-header {
-    /* background-color: #0065ea; */
     color: black;
-    /* width: fit-content;
-    text-align: center;
-   */
   }
   
   ::ng-deep .mat-sort-header-arrow {
@@ -51,7 +36,3 @@
     width: 20%;
     border-radius: 50%;
   }
-  
-  /* .w-70 {
-  min-width: 300px;
-  } */

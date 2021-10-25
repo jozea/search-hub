@@ -1,10 +1,35 @@
-<div class="row mt-3">
-  <div class="col-sm-3">
-    <!-- <h1>hello world</h1> -->
+<div class="row mt-3" style="justify-content: center;">
+  <div *ngIf="maxall" class="col-sm-2">
+    <ul class="list-group">
+      <li class="list-group-item disabled" aria-disabled="true">A disabled item</li>
+      <li class="list-group-item">Repositories</li>
+      <li class="list-group-item">Code</li>
+      <li class="list-group-item">Issues</li>
+      <li class="list-group-item">Discussions</li>
+      <li class="list-group-item">Packages</li>
+      <li class="list-group-item">Marketplace</li>
+      <li class="list-group-item">Topics</li>
+      <li class="list-group-item">Wikis</li>
+      <li class="list-group-item">Users</li>
+    </ul>
+
+    <ul class="list-group mt-3">
+      <li class="list-group-item disabled" aria-disabled="true">Languages</li>
+      <li class="list-group-item">javascript</li>
+      <li class="list-group-item">Html</li>
+      <li class="list-group-item">Java</li>
+      <li class="list-group-item">python</li>
+      <li class="list-group-item">CSS</li>
+      <li class="list-group-item">PHP</li>
+      <li class="list-group-item">C#</li>
+      <li class="list-group-item">Ruby</li>
+      <li class="list-group-item">Typescript</li>
+      <li class="list-group-item">C++</li>
+    </ul>
   </div>
   <div class="table_position col-sm-8">
     <div *ngIf="maxall" class="mat-elevation-z8 table-responsive table-container table_display">
-      <table mat-table [dataSource]="dataSource" class="col-sm-8">
+      <table mat-table [dataSource]="dataSource" class="col-sm-6">
     
         <ng-container matColumnDef="id">
           <th mat-header-cell *matHeaderCellDef> <h3 style="font-size: larg;">{{maxall}} results found </h3></th>
